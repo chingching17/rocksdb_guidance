@@ -17,12 +17,12 @@ make
 完成編譯後，執行以下指令將 gflags 安裝到指定的目錄：
 ```
 sudo make install
-```
+```  
 檢查安裝是否在正確的路徑中：  
-‵‵‵
+```
 ls /usr/local/include/gflags/gflags.h
 ls /usr/local/lib/libgflags.a
-‵‵‵
+```
 將這些路徑加入編譯與執行環境，讓 db_bench 能夠找到 gflags：
 ```
 export CPATH=/usr/local/include:$CPATH
