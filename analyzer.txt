@@ -1,0 +1,13 @@
+./trace_analyzer \
+  -trace_path=./zippyDB/output_trace_file \
+  -convert_to_human_readable_trace \
+  -analyze_get \
+  -output_key_stats \
+  -output_access_count_stats \
+  -output_qps_stats \
+  -output_value_distribution \
+  -output_key_distribution \
+  -print_overall_stats \
+  -print_top_k_access=3 \
+  -output_dir=./zippyDB/result_human_readable \
+  -output_prefix=test
