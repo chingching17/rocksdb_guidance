@@ -18,7 +18,7 @@ make
 ```
 sudo make install
 ```
-檢查安裝是否在正確的路徑中：
+檢查安裝是否在正確的路徑中：  
 ‵‵‵
 ls /usr/local/include/gflags/gflags.h
 ls /usr/local/lib/libgflags.a
