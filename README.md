@@ -3,7 +3,7 @@
 - the lower part is for reproduce zippyDB  
 # Target: Reproduce zippyDB workload  
 - paper: [Characterizing, Modeling, and Benchmarking RocksDB Key-Value Workloads at Facebook](https://www.usenix.org/conference/fast20/presentation/cao-zhichao)  
--zippyDB reproduce: [RocksDB Trace, Replay, Analyzer, and Workload Generation](https://github.com/facebook/rocksdb/wiki/RocksDB-Trace,-Replay,-Analyzer,-and-Workload-Generation)
+- zippyDB reproduce: [RocksDB Trace, Replay, Analyzer, and Workload Generation](https://github.com/facebook/rocksdb/wiki/RocksDB-Trace,-Replay,-Analyzer,-and-Workload-Generation)
 
 # install gflags (instructions) 
 因為 db_bench 執行需要 gflags  
